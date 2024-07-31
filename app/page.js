@@ -1,25 +1,22 @@
 import Image from "next/image";
-import MainSection from "@/sections/indexSection/mainSection";
-import Home_section_1 from "@/sections/home-page/home_section_1";
-import Section1 from "@/sections/indexSection/section1";
-import Section2 from "@/sections/indexSection/section2";
-import Section3 from "@/sections/indexSection/section3";
-import Section4 from "@/sections/indexSection/section4";
+import MainSection from "@/sections/main_page/main_section";
+import InfoSection from "@/sections/main_page/info_section";
+import AffiliateSection from "@/sections/main_page/affiliate_section";
+import CategorySection from "@/sections/main_page/category_section";
+import ImageSection from "@/sections/main_page/image_section";
+import HelperNav from "@/components/helper_nav";
 
 export default function Home() {
   return (
-    <main>
-      <Home_section_1 />
-      {/* <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1> */}
-      {/* <MainSection />
-      <Section3></Section3> */}
-      {/* <Section1></Section1>
-      <Section2></Section2>
-
-      <Section4></Section4> */}
+    <main className="bg-white">
+      <div className=" max-w-7xl m-auto  ">
+        <HelperNav></HelperNav>
+        <MainSection></MainSection>
+        <InfoSection></InfoSection>
+        <ImageSection></ImageSection>
+        <AffiliateSection></AffiliateSection>
+        <CategorySection></CategorySection>
+      </div>
     </main>
   );
 }
