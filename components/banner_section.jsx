@@ -30,7 +30,7 @@ export default function BannerSection() {
     <section className=" w-full  sm:16 h-24  fixed -z-50 ">
       <img
         className=" absolute w-full h-full object-cover "
-        src="https://i.pinimg.com/originals/3d/27/01/3d27013a75c0ccdcd961d920597d6c01.gif"
+        src="img/black-white-background_23-2150530972.jpg"
         alt=""
       />
       <div className="h-full absolute w-screen bg-black opacity-40"></div>

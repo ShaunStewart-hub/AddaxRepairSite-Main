@@ -78,7 +78,7 @@ export default function MainSection() {
           className=" absolute top-0 w-full h-full  "
           animate={{ x: ["-100%", "0%", "2%", "0"] }}
           transition={{
-            duration: 1,
+            duration: 2,
           }}
         >
           <img
